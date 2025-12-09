@@ -1,7 +1,7 @@
 # OrbitOrganizer
 A serverless AI agent that organizes documents, manages tasks, and keeps track of calendar events
 
-###Telegram Calendar Scheduler Agent 📅🤖
+### Telegram Calendar Scheduler Agent 📅🤖
 #### Description: AI-powered assistant that connects your Telegram bot 💬 to Google Calendar via Modal ☁️, so you can schedule events using natural language.
 #### How it works:
 You send messages like “Schedule a team meeting tomorrow at 3pm” or “Book gym sessions every Monday and Wednesday at 7am” to your Telegram bot.
