@@ -1,9 +1,13 @@
 # OrbitOrganizer
 A serverless AI agent that organizes documents, manages tasks, and keeps track of calendar events
 
-An AI-powered scheduling assistant that integrates Telegram with Google Calendar, deployed on [Modal](https://modal.com). 
-Send natural language scheduling requests to your Telegram bot (e.g., "Schedule a team meeting tomorrow at 3pm" or "Book gym sessions every Monday and Wednesday at 7am"), and the agent will automatically parse your intent using GPT-5-mini and create the corresponding events in your Google Calendar. 
-Built with [LangGraph](https://github.com/langchain-ai/langgraph) for structured agent workflow orchestration
+Telegram Calendar Scheduler Agent 📅🤖
+## Description: AI-powered assistant that connects your Telegram bot 💬 to Google Calendar via Modal ☁️, so you can schedule events using natural language.
+## How it works:
+You send messages like “Schedule a team meeting tomorrow at 3pm” or “Book gym sessions every Monday and Wednesday at 7am” to your Telegram bot.
+The agent parses your request using GPT-5-mini and LangGraph 🕸️ to turn it into structured events.
+It then calls the Google Calendar API to automatically create the corresponding events ✅.
+## Tech stack: Modal (serverless hosting), LangGraph (agent workflow), LangChain OpenAI, Google Calendar API, Telegram Bot API.
 
 📄 DeepSeek OCR (Modal Function)
 
